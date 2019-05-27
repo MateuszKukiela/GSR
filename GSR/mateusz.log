@@ -1,0 +1,322 @@
+12.2862 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+13.1071 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, args=UNKNOWN, autoLog=True, bitsMode=UNKNOWN, blendMode='avg', color=array([0., 0., 0.]), colorSpace='rgb', fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f521a3a6780>, gamma=None, kwargs=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f521a394828>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+13.1071 	EXP 	window1: recordFrameIntervals = False
+13.2719 	EXP 	window1: recordFrameIntervals = True
+13.5566 	EXP 	window1: recordFrameIntervals = False
+13.6114 	EXP 	Created Przywitanie = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Przywitanie', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='Cześć! Odpowiadaj "Tak" albo "Nie"', units='norm', win=Window(...), wrapWidth=1)
+13.6161 	EXP 	Created Odczytpytania = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Odczytpytania', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='default text', units='norm', win=Window(...), wrapWidth=1)
+13.6197 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=array([255., 255., 255.]), text='Przerwa', units='norm', win=Window(...), wrapWidth=1)
+13.6202 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color='white', colorSpace='named', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_6', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=array([255., 255., 255.]), text='', units='norm', win=Window(...), wrapWidth=1)
+13.6251 	EXP 	Przywitanie: autoDraw = True
+15.9395 	DATA 	Keypress: space
+15.9499 	EXP 	Imported pytania.xlsx as conditions, 30 conditions, 1 params
+15.9502 	EXP 	Created sequence: random, trialTypes=30, nReps=1, seed=None
+15.9505 	EXP 	New trial (rep=0, index=0): OrderedDict([('Pytania', 'Czy przepłaciłeś za sprzęt komputerowy?')])
+15.9631 	EXP 	Przywitanie: autoDraw = False
+15.9631 	EXP 	Odczytpytania: text = 'Czy przepłaciłeś za sprzęt komputerowy?'
+15.9631 	EXP 	text_4: autoDraw = True
+15.9631 	EXP 	text_6: autoDraw = True
+20.9575 	EXP 	text_4: autoDraw = False
+20.9742 	EXP 	Odczytpytania: autoDraw = True
+24.9461 	DATA 	Keypress: n
+29.9467 	EXP 	New trial (rep=0, index=1): OrderedDict([('Pytania', 'Czy lubisz brokuły?')])
+29.9647 	EXP 	Odczytpytania: autoDraw = False
+29.9647 	EXP 	text_4: autoDraw = False
+29.9647 	EXP 	text_6: autoDraw = False
+29.9647 	EXP 	Odczytpytania: text = 'Czy lubisz brokuły?'
+29.9647 	EXP 	text_4: autoDraw = True
+29.9647 	EXP 	text_6: autoDraw = True
+34.9629 	EXP 	text_4: autoDraw = False
+34.9789 	EXP 	Odczytpytania: autoDraw = True
+37.8139 	DATA 	Keypress: t
+43.9491 	EXP 	New trial (rep=0, index=2): OrderedDict([('Pytania', 'Czy masz kota?')])
+43.9676 	EXP 	Odczytpytania: autoDraw = False
+43.9676 	EXP 	text_4: autoDraw = False
+43.9676 	EXP 	text_6: autoDraw = False
+43.9676 	EXP 	Odczytpytania: text = 'Czy masz kota?'
+43.9676 	EXP 	text_4: autoDraw = True
+43.9676 	EXP 	text_6: autoDraw = True
+48.9679 	EXP 	Odczytpytania: autoDraw = True
+48.9679 	EXP 	text_4: autoDraw = False
+52.8528 	DATA 	Keypress: n
+57.9382 	EXP 	New trial (rep=0, index=3): OrderedDict([('Pytania', 'Czy lubisz pizzę?')])
+57.9533 	EXP 	Odczytpytania: autoDraw = False
+57.9533 	EXP 	text_6: autoDraw = False
+57.9533 	EXP 	Odczytpytania: autoDraw = False
+57.9533 	EXP 	text_4: autoDraw = False
+57.9533 	EXP 	text_6: autoDraw = False
+57.9533 	EXP 	Odczytpytania: text = 'Czy lubisz pizzę?'
+57.9533 	EXP 	text_4: autoDraw = True
+57.9533 	EXP 	text_6: autoDraw = True
+62.9539 	EXP 	text_4: autoDraw = False
+62.9722 	EXP 	Odczytpytania: autoDraw = True
+66.8905 	DATA 	Keypress: n
+71.9421 	EXP 	New trial (rep=0, index=4): OrderedDict([('Pytania', 'Czy jeździsz na łyżwach?')])
+71.9579 	EXP 	Odczytpytania: autoDraw = False
+71.9579 	EXP 	text_4: autoDraw = False
+71.9579 	EXP 	text_6: autoDraw = False
+71.9579 	EXP 	Odczytpytania: text = 'Czy jeździsz na łyżwach?'
+71.9579 	EXP 	text_4: autoDraw = True
+71.9579 	EXP 	text_6: autoDraw = True
+76.9585 	EXP 	Odczytpytania: autoDraw = True
+76.9585 	EXP 	text_4: autoDraw = False
+80.4763 	DATA 	Keypress: t
+85.9468 	EXP 	New trial (rep=0, index=5): OrderedDict([('Pytania', 'Czy sikałeś kiedyś do umywalki?')])
+85.9642 	EXP 	Odczytpytania: autoDraw = False
+85.9642 	EXP 	text_4: autoDraw = False
+85.9642 	EXP 	text_6: autoDraw = False
+85.9642 	EXP 	Odczytpytania: text = 'Czy sikałeś kiedyś do umywalki?'
+85.9642 	EXP 	text_4: autoDraw = True
+85.9642 	EXP 	text_6: autoDraw = True
+90.9636 	EXP 	text_4: autoDraw = False
+90.9804 	EXP 	Odczytpytania: autoDraw = True
+94.4648 	DATA 	Keypress: n
+99.9508 	EXP 	New trial (rep=0, index=6): OrderedDict([('Pytania', 'Czy okłamałeś kiedyś matkę odnośnie swoich planów na wieczór?')])
+99.9678 	EXP 	Odczytpytania: autoDraw = False
+99.9678 	EXP 	text_4: autoDraw = False
+99.9678 	EXP 	text_6: autoDraw = False
+99.9678 	EXP 	Odczytpytania: text = 'Czy okłamałeś kiedyś matkę odnośnie swoich planów na wieczór?'
+99.9678 	EXP 	text_4: autoDraw = True
+99.9678 	EXP 	text_6: autoDraw = True
+104.9680 	EXP 	Odczytpytania: autoDraw = True
+104.9680 	EXP 	text_4: autoDraw = False
+109.9868 	DATA 	Keypress: t
+113.9397 	EXP 	New trial (rep=0, index=7): OrderedDict([('Pytania', 'Czy lubisz kaktusa na naszym patio?')])
+113.9540 	EXP 	Odczytpytania: autoDraw = False
+113.9540 	EXP 	text_6: autoDraw = False
+113.9540 	EXP 	Odczytpytania: autoDraw = False
+113.9540 	EXP 	text_4: autoDraw = False
+113.9540 	EXP 	text_6: autoDraw = False
+113.9540 	EXP 	Odczytpytania: text = 'Czy lubisz kaktusa na naszym patio?'
+113.9540 	EXP 	text_4: autoDraw = True
+113.9540 	EXP 	text_6: autoDraw = True
+118.9549 	EXP 	text_4: autoDraw = False
+118.9723 	EXP 	Odczytpytania: autoDraw = True
+124.3415 	DATA 	Keypress: n
+127.9434 	EXP 	New trial (rep=0, index=8): OrderedDict([('Pytania', 'Czy ściągałeś kiedyś na egzaminie na FUWie?')])
+127.9650 	EXP 	Odczytpytania: autoDraw = False
+127.9650 	EXP 	text_4: autoDraw = False
+127.9650 	EXP 	text_6: autoDraw = False
+127.9650 	EXP 	Odczytpytania: text = 'Czy ściągałeś kiedyś na egzaminie na FUWie?'
+127.9650 	EXP 	text_4: autoDraw = True
+127.9650 	EXP 	text_6: autoDraw = True
+132.9600 	EXP 	text_4: autoDraw = False
+132.9761 	EXP 	Odczytpytania: autoDraw = True
+141.4953 	DATA 	Keypress: t
+141.9460 	EXP 	New trial (rep=0, index=9): OrderedDict([('Pytania', 'Czy mieszkasz w Warszawie?')])
+141.9635 	EXP 	Odczytpytania: autoDraw = False
+141.9635 	EXP 	text_4: autoDraw = False
+141.9635 	EXP 	text_6: autoDraw = False
+141.9635 	EXP 	Odczytpytania: text = 'Czy mieszkasz w Warszawie?'
+141.9635 	EXP 	text_4: autoDraw = True
+141.9635 	EXP 	text_6: autoDraw = True
+146.9651 	EXP 	Odczytpytania: autoDraw = True
+146.9651 	EXP 	text_4: autoDraw = False
+151.8163 	DATA 	Keypress: n
+155.9505 	EXP 	New trial (rep=0, index=10): OrderedDict([('Pytania', 'Czy dzisiaj jest wtorek?')])
+155.9671 	EXP 	Odczytpytania: autoDraw = False
+155.9671 	EXP 	text_4: autoDraw = False
+155.9671 	EXP 	text_6: autoDraw = False
+155.9671 	EXP 	Odczytpytania: text = 'Czy dzisiaj jest wtorek?'
+155.9671 	EXP 	text_4: autoDraw = True
+155.9671 	EXP 	text_6: autoDraw = True
+160.9693 	EXP 	Odczytpytania: autoDraw = True
+160.9693 	EXP 	text_4: autoDraw = False
+165.4209 	DATA 	Keypress: t
+169.9559 	EXP 	New trial (rep=0, index=11): OrderedDict([('Pytania', 'Czy zdradziłeś kiedyś swojego partnera?')])
+169.9722 	EXP 	Odczytpytania: autoDraw = False
+169.9722 	EXP 	text_4: autoDraw = False
+169.9722 	EXP 	text_6: autoDraw = False
+169.9722 	EXP 	Odczytpytania: text = 'Czy zdradziłeś kiedyś swojego partnera?'
+169.9722 	EXP 	text_4: autoDraw = True
+169.9722 	EXP 	text_6: autoDraw = True
+174.9722 	EXP 	text_4: autoDraw = False
+174.9891 	EXP 	Odczytpytania: autoDraw = True
+178.8902 	DATA 	Keypress: t
+178.8903 	DATA 	Keypress: y
+180.6420 	DATA 	Keypress: t
+183.9441 	EXP 	New trial (rep=0, index=12): OrderedDict([('Pytania', 'Czy nie zdałeś Fizyki I?')])
+183.9606 	EXP 	Odczytpytania: autoDraw = False
+183.9606 	EXP 	text_4: autoDraw = False
+183.9606 	EXP 	text_6: autoDraw = False
+183.9606 	EXP 	Odczytpytania: text = 'Czy nie zdałeś Fizyki I?'
+183.9606 	EXP 	text_4: autoDraw = True
+183.9606 	EXP 	text_6: autoDraw = True
+188.9610 	EXP 	text_4: autoDraw = False
+188.9776 	EXP 	Odczytpytania: autoDraw = True
+192.7635 	DATA 	Keypress: n
+197.9480 	EXP 	New trial (rep=0, index=13): OrderedDict([('Pytania', 'Czy prof. dr hab. Piotr Durka powinien pozostać łysy?')])
+197.9642 	EXP 	Odczytpytania: autoDraw = False
+197.9642 	EXP 	text_4: autoDraw = False
+197.9642 	EXP 	text_6: autoDraw = False
+197.9642 	EXP 	Odczytpytania: text = 'Czy prof. dr hab. Piotr Durka powinien pozostać łysy?'
+197.9642 	EXP 	text_4: autoDraw = True
+197.9642 	EXP 	text_6: autoDraw = True
+202.9643 	EXP 	text_4: autoDraw = False
+202.9811 	EXP 	Odczytpytania: autoDraw = True
+206.2156 	DATA 	Keypress: t
+211.9524 	EXP 	New trial (rep=0, index=14): OrderedDict([('Pytania', 'Czy jesteś światłym człowiekiem i nie tolerujesz pizzy bez ananasa?')])
+211.9722 	EXP 	Odczytpytania: autoDraw = False
+211.9722 	EXP 	text_4: autoDraw = False
+211.9722 	EXP 	text_6: autoDraw = False
+211.9722 	EXP 	Odczytpytania: text = 'Czy jesteś światłym człowiekiem i nie tolerujesz pizzy bez ananasa?'
+211.9722 	EXP 	text_4: autoDraw = True
+211.9722 	EXP 	text_6: autoDraw = True
+216.9688 	EXP 	text_4: autoDraw = False
+216.9854 	EXP 	Odczytpytania: autoDraw = True
+222.0883 	DATA 	Keypress: n
+225.9558 	EXP 	New trial (rep=0, index=15): OrderedDict([('Pytania', 'Czy całowałeś się z osobą tej samej płci?')])
+225.9717 	EXP 	Odczytpytania: autoDraw = False
+225.9717 	EXP 	text_4: autoDraw = False
+225.9717 	EXP 	text_6: autoDraw = False
+225.9717 	EXP 	Odczytpytania: text = 'Czy całowałeś się z osobą tej samej płci?'
+225.9717 	EXP 	text_4: autoDraw = True
+225.9717 	EXP 	text_6: autoDraw = True
+230.9732 	EXP 	Odczytpytania: autoDraw = True
+230.9732 	EXP 	text_4: autoDraw = False
+235.3424 	DATA 	Keypress: t
+239.9452 	EXP 	New trial (rep=0, index=16): OrderedDict([('Pytania', 'Czy drukowałeś kiedyś w naszej bibliotece więcej niż 200 stron jednego dnia?')])
+239.9663 	EXP 	Odczytpytania: autoDraw = False
+239.9663 	EXP 	text_4: autoDraw = False
+239.9663 	EXP 	text_6: autoDraw = False
+239.9663 	EXP 	Odczytpytania: text = 'Czy drukowałeś kiedyś w naszej bibliotece więcej niż 200 stron jednego dnia?'
+239.9663 	EXP 	text_4: autoDraw = True
+239.9663 	EXP 	text_6: autoDraw = True
+244.9615 	EXP 	text_4: autoDraw = False
+244.9784 	EXP 	Odczytpytania: autoDraw = True
+249.3635 	DATA 	Keypress: t
+253.9479 	EXP 	New trial (rep=0, index=17): OrderedDict([('Pytania', 'Czy przetrzymałeś kiedyś książkę w bibliotece?')])
+253.9635 	EXP 	Odczytpytania: autoDraw = False
+253.9635 	EXP 	text_4: autoDraw = False
+253.9635 	EXP 	text_6: autoDraw = False
+253.9635 	EXP 	Odczytpytania: text = 'Czy przetrzymałeś kiedyś książkę w bibliotece?'
+253.9635 	EXP 	text_4: autoDraw = True
+253.9635 	EXP 	text_6: autoDraw = True
+258.9663 	EXP 	Odczytpytania: autoDraw = True
+258.9663 	EXP 	text_4: autoDraw = False
+263.9169 	DATA 	Keypress: n
+267.9368 	EXP 	New trial (rep=0, index=18): OrderedDict([('Pytania', 'Czy przelizałeś się keidyś z jakąś laską z FUWu?')])
+267.9523 	EXP 	Odczytpytania: autoDraw = False
+267.9523 	EXP 	text_6: autoDraw = False
+267.9523 	EXP 	Odczytpytania: autoDraw = False
+267.9523 	EXP 	text_4: autoDraw = False
+267.9523 	EXP 	text_6: autoDraw = False
+267.9523 	EXP 	Odczytpytania: text = 'Czy przelizałeś się keidyś z jakąś laską z FUWu?'
+267.9523 	EXP 	text_4: autoDraw = True
+267.9523 	EXP 	text_6: autoDraw = True
+272.9545 	EXP 	Odczytpytania: autoDraw = True
+272.9545 	EXP 	text_4: autoDraw = False
+277.7727 	DATA 	Keypress: t
+281.9426 	EXP 	New trial (rep=0, index=19): OrderedDict([('Pytania', 'Czy byłeś/aś w Hiszpanii?')])
+281.9588 	EXP 	Odczytpytania: autoDraw = False
+281.9588 	EXP 	text_4: autoDraw = False
+281.9588 	EXP 	text_6: autoDraw = False
+281.9588 	EXP 	Odczytpytania: text = 'Czy byłeś/aś w Hiszpanii?'
+281.9588 	EXP 	text_4: autoDraw = True
+281.9588 	EXP 	text_6: autoDraw = True
+286.9585 	EXP 	text_4: autoDraw = False
+286.9750 	EXP 	Odczytpytania: autoDraw = True
+291.4115 	DATA 	Keypress: n
+295.9457 	EXP 	New trial (rep=0, index=20): OrderedDict([('Pytania', 'Czy masz brata?')])
+295.9612 	EXP 	Odczytpytania: autoDraw = False
+295.9612 	EXP 	text_4: autoDraw = False
+295.9612 	EXP 	text_6: autoDraw = False
+295.9612 	EXP 	Odczytpytania: text = 'Czy masz brata?'
+295.9612 	EXP 	text_4: autoDraw = True
+295.9612 	EXP 	text_6: autoDraw = True
+300.9626 	EXP 	Odczytpytania: autoDraw = True
+300.9626 	EXP 	text_4: autoDraw = False
+303.7637 	DATA 	Keypress: t
+309.9500 	EXP 	New trial (rep=0, index=21): OrderedDict([('Pytania', 'Czy jechałeś kiedyś na rowerze pod wpływem alkoholu?')])
+309.9661 	EXP 	Odczytpytania: autoDraw = False
+309.9661 	EXP 	text_4: autoDraw = False
+309.9661 	EXP 	text_6: autoDraw = False
+309.9661 	EXP 	Odczytpytania: text = 'Czy jechałeś kiedyś na rowerze pod wpływem alkoholu?'
+309.9661 	EXP 	text_4: autoDraw = True
+309.9661 	EXP 	text_6: autoDraw = True
+314.9660 	EXP 	text_4: autoDraw = False
+314.9842 	EXP 	Odczytpytania: autoDraw = True
+317.9849 	DATA 	Keypress: n
+323.9540 	EXP 	New trial (rep=0, index=22): OrderedDict([('Pytania', 'Czy ukradłeś kiedyś coś?')])
+323.9703 	EXP 	Odczytpytania: autoDraw = False
+323.9703 	EXP 	text_4: autoDraw = False
+323.9703 	EXP 	text_6: autoDraw = False
+323.9703 	EXP 	Odczytpytania: text = 'Czy ukradłeś kiedyś coś?'
+323.9703 	EXP 	text_4: autoDraw = True
+323.9703 	EXP 	text_6: autoDraw = True
+328.9712 	EXP 	text_4: autoDraw = False
+328.9871 	EXP 	Odczytpytania: autoDraw = True
+332.3245 	DATA 	Keypress: t
+337.9417 	EXP 	New trial (rep=0, index=23): OrderedDict([('Pytania', 'Czy masz prawo jazdy?')])
+337.9579 	EXP 	Odczytpytania: autoDraw = False
+337.9579 	EXP 	text_4: autoDraw = False
+337.9579 	EXP 	text_6: autoDraw = False
+337.9579 	EXP 	Odczytpytania: text = 'Czy masz prawo jazdy?'
+337.9579 	EXP 	text_4: autoDraw = True
+337.9579 	EXP 	text_6: autoDraw = True
+342.9580 	EXP 	Odczytpytania: autoDraw = True
+342.9580 	EXP 	text_4: autoDraw = False
+346.3271 	DATA 	Keypress: t
+351.9462 	EXP 	New trial (rep=0, index=24): OrderedDict([('Pytania', 'Czy rzygałeś kiedyś po alkoholu?')])
+351.9637 	EXP 	Odczytpytania: autoDraw = False
+351.9637 	EXP 	text_4: autoDraw = False
+351.9637 	EXP 	text_6: autoDraw = False
+351.9637 	EXP 	Odczytpytania: text = 'Czy rzygałeś kiedyś po alkoholu?'
+351.9637 	EXP 	text_4: autoDraw = True
+351.9637 	EXP 	text_6: autoDraw = True
+356.9643 	EXP 	text_4: autoDraw = False
+356.9805 	EXP 	Odczytpytania: autoDraw = True
+362.3314 	DATA 	Keypress: t
+365.9497 	EXP 	New trial (rep=0, index=25): OrderedDict([('Pytania', 'Czy szkalowałeś kiedyś papieża?')])
+365.9671 	EXP 	Odczytpytania: autoDraw = False
+365.9671 	EXP 	text_4: autoDraw = False
+365.9671 	EXP 	text_6: autoDraw = False
+365.9671 	EXP 	Odczytpytania: text = 'Czy szkalowałeś kiedyś papieża?'
+365.9671 	EXP 	text_4: autoDraw = True
+365.9671 	EXP 	text_6: autoDraw = True
+370.9679 	EXP 	Odczytpytania: autoDraw = True
+370.9679 	EXP 	text_4: autoDraw = False
+375.9187 	DATA 	Keypress: n
+379.9552 	EXP 	New trial (rep=0, index=26): OrderedDict([('Pytania', 'Czy głosowałeś kiedyś na Korwina/namówiłeś kogoś?')])
+379.9750 	EXP 	Odczytpytania: autoDraw = False
+379.9750 	EXP 	text_4: autoDraw = False
+379.9750 	EXP 	text_6: autoDraw = False
+379.9750 	EXP 	Odczytpytania: text = 'Czy głosowałeś kiedyś na Korwina/namówiłeś kogoś?'
+379.9750 	EXP 	text_4: autoDraw = True
+379.9750 	EXP 	text_6: autoDraw = True
+384.9718 	EXP 	Odczytpytania: autoDraw = True
+384.9718 	EXP 	text_4: autoDraw = False
+389.5577 	DATA 	Keypress: n
+393.9434 	EXP 	New trial (rep=0, index=27): OrderedDict([('Pytania', 'Czy urodziłeś/aś się w Polsce?')])
+393.9584 	EXP 	Odczytpytania: autoDraw = False
+393.9584 	EXP 	text_4: autoDraw = False
+393.9584 	EXP 	text_6: autoDraw = False
+393.9584 	EXP 	Odczytpytania: text = 'Czy urodziłeś/aś się w Polsce?'
+393.9584 	EXP 	text_4: autoDraw = True
+393.9584 	EXP 	text_6: autoDraw = True
+398.9589 	EXP 	Odczytpytania: autoDraw = True
+398.9589 	EXP 	text_4: autoDraw = False
+401.9444 	DATA 	Keypress: t
+407.9463 	EXP 	New trial (rep=0, index=28): OrderedDict([('Pytania', 'Czy studiujesz na UW?')])
+407.9642 	EXP 	Odczytpytania: autoDraw = False
+407.9642 	EXP 	text_4: autoDraw = False
+407.9642 	EXP 	text_6: autoDraw = False
+407.9642 	EXP 	Odczytpytania: text = 'Czy studiujesz na UW?'
+407.9642 	EXP 	text_4: autoDraw = True
+407.9642 	EXP 	text_6: autoDraw = True
+412.9633 	EXP 	Odczytpytania: autoDraw = True
+412.9633 	EXP 	text_4: autoDraw = False
+416.2981 	DATA 	Keypress: n
+421.9359 	EXP 	New trial (rep=0, index=29): OrderedDict([('Pytania', 'Czy sikałeś kiedyś z wysokości względnej większej niż 300 m?')])
+421.9560 	EXP 	Odczytpytania: autoDraw = False
+421.9560 	EXP 	text_6: autoDraw = False
+421.9560 	EXP 	Odczytpytania: autoDraw = False
+421.9560 	EXP 	text_4: autoDraw = False
+421.9560 	EXP 	text_6: autoDraw = False
+421.9560 	EXP 	Odczytpytania: text = 'Czy sikałeś kiedyś z wysokości względnej większej niż 300 m?'
+421.9560 	EXP 	text_4: autoDraw = True
+421.9560 	EXP 	text_6: autoDraw = True
+426.9512 	EXP 	text_4: autoDraw = False
+426.9678 	EXP 	Odczytpytania: autoDraw = True
+431.6863 	DATA 	Keypress: t
+435.9722 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rs:rawSignal xmlns:rs="http://signalml.org/rawsignal">
+	<rs:exportFileName>name</rs:exportFileName>
+	<rs:sourceFileName>/home/syg_bio_1/mateusz.raw</rs:sourceFileName>
+	<rs:sourceFileFormat>
+		<rs:rawSignalInfo></rs:rawSignalInfo>
+	</rs:sourceFileFormat>
+	<rs:samplingFrequency>2048.0</rs:samplingFrequency>
+	<rs:channelCount>2</rs:channelCount>
+	<rs:sampleCount>898432</rs:sampleCount>
+	<rs:calibration>1.0</rs:calibration>
+	<rs:sampleType>FLOAT</rs:sampleType>
+	<rs:byteOrder>LITTLE_ENDIAN</rs:byteOrder>
+	<rs:pageSize>20.0</rs:pageSize>
+	<rs:blocksPerPage>5</rs:blocksPerPage>
+	<rs:channelLabels>
+		<rs:label>Aux29</rs:label>
+		<rs:label>TSS</rs:label>
+	</rs:channelLabels>
+	<rs:calibrationGain>
+		<rs:calibrationParam>1.4305000305175781</rs:calibrationParam>
+		<rs:calibrationParam>1.0</rs:calibrationParam>
+	</rs:calibrationGain>
+	<rs:calibrationOffset>
+		<rs:calibrationParam>0.0</rs:calibrationParam>
+		<rs:calibrationParam>0.0</rs:calibrationParam>
+	</rs:calibrationOffset>
+	<rs:firstSampleTimestamp>1558963627.6228082</rs:firstSampleTimestamp>
+</rs:rawSignal>
